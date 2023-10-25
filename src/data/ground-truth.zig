@@ -58,7 +58,7 @@ pub fn main() !void {
     }
 }
 
-/// This function renders a new 
+/// This function renders a new
 pub fn writeEverything(src_writer: anytype, range: tvg.Range) !void {
     var writer = tvg.builder.create(src_writer);
     const Writer = @TypeOf(writer);
